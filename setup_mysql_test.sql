@@ -1,7 +1,7 @@
--- This script prepares MySQL server
--- creates the database with the name : hbnb_test_db
+-- This script prepares the MySQL server
+-- Then creates the database with the name : hbnb_test_db
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
--- creates new user named : hbnb_test with all privileges on the db hbnb_test_db
+-- This creates new user named : hbnb_test with all privileges on the db hbnb_test_db
 -- with the password : hbnb_test_pwd if it dosen't exist
 CREATE USER IF NOT EXISTS 'hbnb_test'@'localhost' IDENTIFIED BY 'hbnb_test_pwd';
 -- granting the SELECT privilege for the user hbnb_test on the db 

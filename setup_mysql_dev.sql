@@ -1,7 +1,7 @@
--- This script creates a MySQL server for the project
--- create project database with the name : hbnb_dev_db
+-- This script creates the MySQL server for the project
+-- Then create project database with the name : hbnb_dev_db
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
--- creates new user named : hbnb_dev with all privileges on the db hbnb_dev_db
+-- This will creates new user named : hbnb_dev with all privileges on the db hbnb_dev_db
 -- with the password : hbnb_dev_pwd if it dosen't exist
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
 -- granting all privileges to the new user
